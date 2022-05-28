@@ -15,6 +15,7 @@
 @font-face {
     font-family: 'MontserratFont';
     src: url(fonts/MontserratFont.ttf) format('truetype');
+    font-weight: normal;
 }
 
 @font-face {
@@ -23,10 +24,14 @@
 }
 
 @font-face {
+    font-family: 'MontserratBoldFont';
+    src: url(fonts/MontserratBoldFont.ttf) format('truetype');
+}
+
+@font-face {
     font-family: 'PromptMedium';
     src: url(fonts/PromptMedium.ttf) format('truetype');
 }
-
 
 body{
     background-color: #0E1422;
@@ -108,14 +113,16 @@ body{
 
 .box-text{
     background-color: #307113;
-    padding: 50px 30px;
+    padding: 35px 30px;
 }
 
 .box-text h1{
     color:#FFA800;
     font-size: 45px;
-    font-family: 'BobbyJonesSoft';
+    font-family: 'MontserratBoldFont';
     letter-spacing: 3px;
+    line-height: 3.5rem;
+    margin-bottom: 10px;
 }
 
 .box-text h3{
@@ -133,8 +140,52 @@ body{
 }
 
 
-
 /* Indhold Allergi (allergi.html) siden */
+.infoomallergi{
+    padding: 50px 30px;
+    line-height: 35px;
+}
+
+.infoomallergi hr{
+    width: 50%;
+    border-color: #FFA800;
+}
+
+.infoomallergi h1{
+    color: #FFA800;
+    font-family: 'MontserratBoldFont';
+    font-size: 35px;
+    margin-bottom: 20px;
+    line-height: 1.3em;
+}
+
+.allergi-first{
+    color: #ffff;
+    font-size: 19px;
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.allergi-secound{
+    color: #ffff;
+    font-size: 19px;
+    margin-bottom: 20px;
+}
+
+.allergi-secound a{
+    color: #ffff;
+    font-size: 19px;
+    text-decoration: none;
+}
+
+.allergi-secound a:hover{
+    color: #FFA800;
+}
+
+.allergi-third{
+    color: #FFA800;
+    font-size: 19px;
+}
 
 
 
