@@ -16,6 +16,40 @@
     <meta property="og:site_name" content="Royal Sandwich">
 </head>
 <body>
+    <section class="info-adresse">
+        <p class="info-contact-adresse">
+            Besøg os i vores fysiske butik - du kan finde os på vores adresse:
+            <span class="adresse">Selsmosevej 2, 2630 Taastrup</span> <br>
+            Vi ligger ved Taastrup Stationscenter.
+        </p>
+        <p class="info-contact-question"><i>Har du brug for at kontakte os?</i></p>
+        <p class="info-contact-email">
+            Send os en mail og fortæl hvad du har på hjertet - på <a href="mailto:royalsandwich@info.dk">royalsandwich@info.dk</a><br>
+            - vi besvare så hurtigt vi kan! 
+            <br> <br>
+        
+            Ellers så kan du også udfylde vores kontaktformular herunder.
+        </p>
+    </section>
+
+    <!-- Kontaktformularen er inspireret af https://www.w3schools.com/howto/howto_css_contact_form.asp og er designet af egen CSS - kommentar fra 28.05.22 -->
+    <section class="contactform">
+        <form class="contant-formular">
+            <label for="first-name">Navn<span class="vigtigt">*</span></label>
+            <input type="text" id="fname" name="firstname" placeholder="Dit navn..">
+
+            <label for="email">Email<span class="vigtigt">*</span></label>
+            <input type="text" id="email" name="email" placeholder="Email..">
+
+            <label for="number">Telefonnummer</label>
+            <input type="text" id="tlf" name="telefonnummer" placeholder="Dit telefonnummer..">
+
+            <label for="subject">Emne</label>
+            <textarea id="subject" name="subject" placeholder="Din bedsked.."></textarea>
+
+            <input type="submit" value="Insend">
+        </form>
+    </section>
     
 </body>
 </html>

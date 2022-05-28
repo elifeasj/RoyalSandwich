@@ -163,8 +163,7 @@ body{
 .allergi-first{
     color: #ffff;
     font-size: 19px;
-    margin-bottom: 15px;
-    margin-top: 30px;
+    margin: 30px 0px 15px 0px;
 }
 
 .allergi-secound{
@@ -213,8 +212,7 @@ body{
 .virksomheder-first{
     color: #ffff;
     font-size: 19px;
-    margin-bottom: 15px;
-    margin-top: 30px;
+    margin: 30px 0px 15px 0px;
 }
 
 .virksomheder-secound{
@@ -224,8 +222,7 @@ body{
 
 .sandwich{
     border-radius: 50%;
-    margin-top: 15px;
-    margin-bottom: 15px;
+    margin: 15px 0px 15px 0px;
 }
 
 .info-two{
@@ -236,8 +233,7 @@ body{
 .info-three{
     color: #ffff;
     font-size: 19px;
-    margin-top: 35px;
-    margin-bottom: 50px;
+    margin: 30px 0px 50px 0px;
 }
 
 .kontaktosknap{
@@ -255,6 +251,72 @@ body{
 
 .kontaktosknap:hover{
     color: #FFA800;
+}
+
+/* Indhold Kontakt os (kontaktos.html) siden */
+.info-adresse{
+    padding: 70px 34px;
+    line-height: 35px;
+}
+
+.info-contact-adresse{
+    color: #ffff;
+    font-size: 19px;
+}
+
+.info-contact-question{
+    color: #FFA800;
+    font-size: 19px;
+    margin: 30px 0px 30px 0px;
+}
+
+.info-contact-email{
+    color: #ffff;
+    font-size: 19px;
+}
+
+.info-contact-email a{
+    color: #ffff;
+    text-decoration: none;
+}
+
+.info-contact-email a:hover{
+    color: #FFA800;
+    text-decoration: underline;
+}
+
+.adresse{
+    color: #FFA800;
+}
+
+/* Kontaktform design - kontaktformen er inspireret af https://www.w3schools.com/howto/howto_css_contact_form.asp - kommentar fra 28.05.22 */
+
+.contactform-formular{
+    padding: 12px 20px;
+    cursor: pointer;
+    font-family: 'MontserratFont';
+}
+
+.input[type=text],select, textarea{
+    width: 70%;
+    margin: 30px 30px;
+    padding: 12px;
+    border-radius: 20px;
+}
+
+.contact-formular, label{
+    color: #ffff;
+    font-size: 19px;
+}
+
+.contactform-formular, .vigtigt{
+    color: #ef2020;
+}
+
+.input[type=submit] input{
+    background-color: #ffff;
+    border: 10px;
+    font-size: 19px;
 }
 
 
