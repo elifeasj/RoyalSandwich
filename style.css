@@ -319,6 +319,31 @@ body{
     font-size: 19px;
 }
 
+/* Footer */
+footer{
+    font-size: 19px;
+    background-color: #0E1422;
+    border-radius: 3rem;
+    border-color: #ffff;
+}
+
+.footer-telefon, .footer-adresse{
+    color: #ffff;
+}
+
+.telefon-tekst, .adresse-tekst, .some-tekst{
+    color: #FFA800;
+}
+
+/* SoMe ikoner */
+.fa{
+    padding: 20px;
+}
+/* Facebook */
+
+/* Instagram */
+
+
 
 /* Desktop version start */
 @media (min-width: 1024px){
