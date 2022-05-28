@@ -22,6 +22,11 @@
     src: url(fonts/MontserratItalicFont.ttf) format('truetype');
 }
 
+@font-face {
+    font-family: 'PromptMedium';
+    src: url(fonts/PromptMedium.ttf) format('truetype');
+}
+
 
 body{
     background-color: #0E1422;
