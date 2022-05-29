@@ -330,6 +330,7 @@ footer hr{
 footer h3{
     color: #FFA800;
     font-size: 25px;
+    line-height: 2em;
 }
 
 footer p{
@@ -390,6 +391,34 @@ footer p{
 
     .infoecology{
         display: flex;
-        flex-wrap: wrap;
+    }
+
+    .organisk{
+        object-fit: cover;
+    }
+
+    .box-text{
+        padding: 10rem 8rem 5rem 5rem;
+    }
+
+    .box-text h1{
+        padding-bottom: 10px;
+    }
+    
+
+
+    /* Footer */
+    footer{
+        position: sticky;
+        display: flex;
+        flex-direction:row;
+        padding: 3rem;
+        margin: 3rem 3rem 3rem 3rem;
+        justify-content: space-between;
+        
+    }
+
+    footer hr{
+        display: none;
     }
 }
