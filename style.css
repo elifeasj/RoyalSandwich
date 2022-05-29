@@ -290,7 +290,6 @@ body{
 }
 
 /* Kontaktform design - kontaktformen er inspireret af https://www.w3schools.com/howto/howto_css_contact_form.asp - kommentar fra 28.05.22 */
-
 .contactform-formular{
     padding: 12px 20px;
     cursor: pointer;
@@ -321,27 +320,45 @@ body{
 
 /* Footer */
 footer{
-    font-size: 19px;
-    background-color: #0E1422;
-    border-radius: 3rem;
-    border-color: #ffff;
+    line-height: 2em;
 }
 
-.footer-telefon, .footer-adresse{
+footer hr{
     color: #ffff;
 }
 
-.telefon-tekst, .adresse-tekst, .some-tekst{
+footer h3{
     color: #FFA800;
+    font-size: 25px;
+}
+
+footer p{
+    color: #ffff;
+    font-size: 20px;
+}
+
+.footer-container{
+    padding: 20px 20px;
 }
 
 /* SoMe ikoner */
 .fa{
-    padding: 20px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 50px;
+    margin: 20px 10px;
 }
-/* Facebook */
 
-/* Instagram */
+.footer-some{
+    padding: 10px;
+    font-size: 40px;
+}
+
+/* Facebook - Instagram */
+.fa-facebook, .fa-instagram{
+    color: #ffff;
+}
 
 
 
