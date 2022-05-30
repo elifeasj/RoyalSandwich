@@ -455,12 +455,10 @@ footer hr{
 @media (min-width: 1024px){
     .navigation{
         display: flex;
-        justify-content: center;
     }
 
     .navigation ul li{
-
-
+        list-style-type: none;
     }
 
     .navigation ul li a{
@@ -473,7 +471,7 @@ footer hr{
         color: #FFA800;
     }
 
-    .dropdown-menu{
+    .dropdown{
         display: none;
     }
 
