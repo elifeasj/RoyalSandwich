@@ -346,8 +346,6 @@ button{
       color: #FFA800;
   }
 
-
-
 /* Footer */
 footer{
     line-height: 2rem;
@@ -370,6 +368,10 @@ footer h3{
 footer p{
     color: #ffff;
     font-size: 20px;
+}
+
+footer hr{
+    width: 100%;
 }
 
 
