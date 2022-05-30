@@ -148,7 +148,7 @@ input[type=checkbox]:checked ~ .dropdown-content{
 
 /* Indhold Allergi (allergi.html) siden */
 .infoomallergi{
-    padding: 70px 40px;
+    padding: 0px 34px;
     line-height: 35px;
 }
 
@@ -194,7 +194,7 @@ input[type=checkbox]:checked ~ .dropdown-content{
 
 /* Indhold Virksomheder (virksomheder.html) siden */
 .infovirksomheder{
-    padding: 70px 34px;
+    padding: 0px 34px;
     line-height: 35px;
 }
 .infovirksomheder h1{
@@ -243,25 +243,29 @@ input[type=checkbox]:checked ~ .dropdown-content{
 }
 
 .kontaktosknap{
+    display: flex;
+    margin: 0px 90px;
+}
+
+.kontaktknap{
     font-size: 19px;
     border: 2px solid black;
     border-radius: 10px;
     color: black;
     background-color: #ffff;
     text-decoration: none;
-    display: inline-block;
     cursor: pointer;
     text-align: center;
-    padding: 10px 20px;
+    padding: 12px 15px;
 }
 
-.kontaktosknap:hover{
+.kontaktknap:hover{
     color: #FFA800;
 }
 
 /* Indhold Kontakt os (kontaktos.html) siden */
 .info-adresse{
-    padding: 70px 34px;
+    padding: 0px 34px;
     line-height: 35px;
 }
 
@@ -296,17 +300,26 @@ input[type=checkbox]:checked ~ .dropdown-content{
 }
 
 /* Kontaktform design - kontaktformen er inspireret af https://www.w3schools.com/howto/howto_css_contact_form.asp - kommentar fra 28.05.22 */
+.contactform{
+    padding: 55px 40px;
+}
+
 .contactform-formular{
     padding: 12px 20px;
     cursor: pointer;
     font-family: 'MontserratFont';
 }
 
-.input[type=text],select, textarea{
-    width: 70%;
-    margin: 30px 30px;
+input[type=text], select, textarea {
+    width: 100%;
     padding: 12px;
-    border-radius: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 15px;
+    margin-bottom: 16px;
+    resize: vertical;
+    font-family: 'MontserratFont';
 }
 
 .contact-formular, label{
@@ -318,11 +331,22 @@ input[type=checkbox]:checked ~ .dropdown-content{
     color: #ef2020;
 }
 
-.input[type=submit] input{
+button{
+    font-size: 18px;
+    border-radius: 10px;
+    color: black;
     background-color: #ffff;
-    border: 10px;
-    font-size: 19px;
-}
+    text-decoration: none;
+    cursor: pointer;
+    text-align: center;
+    padding: 15px 15px;
+  }
+
+  input[type=submit]:hover{
+      color: #FFA800;
+  }
+
+
 
 /* Footer */
 footer{

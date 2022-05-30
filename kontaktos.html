@@ -65,22 +65,23 @@
 
         <!-- Kontaktformularen er inspireret af https://www.w3schools.com/howto/howto_css_contact_form.asp og er designet af egen CSS - kommentar fra 28.05.22 -->
         <section class="contactform">
-            <form class="contant-formular">
-                <label for="first-name">Navn<span class="vigtigt">*</span></label>
-                <input type="text" id="fname" name="firstname" placeholder="Dit navn..">
+                <form class="contant-formular">
+                    <label for="first-name">Navn<span class="vigtigt">*</span></label>
+                    <input type="text" id="fname" name="firstname" placeholder="Dit navn..">
 
-                <label for="email">Email<span class="vigtigt">*</span></label>
-                <input type="text" id="email" name="email" placeholder="Email..">
+                    <label for="email">Email<span class="vigtigt">*</span></label>
+                    <input type="text" id="email" name="email" placeholder="Email..">
 
-                <label for="number">Telefonnummer</label>
-                <input type="text" id="tlf" name="telefonnummer" placeholder="Dit telefonnummer..">
+                    <label for="number">Telefonnummer</label>
+                    <input type="text" id="tlf" name="telefonnummer" placeholder="Dit telefonnummer..">
 
-                <label for="subject">Emne</label>
-                <textarea id="subject" name="subject" placeholder="Din bedsked.."></textarea>
+                    <label for="subject">Emne</label>
+                    <textarea id="subject" name="subject" placeholder="Din bedsked.."></textarea>
 
-                <input type="submit" value="Insend">
-            </form>
+                    <button onclick="myFunction()">Indsend</button>
+                </form>
         </section>
+
     </main>
 
     <footer>
@@ -104,6 +105,7 @@
             <p>Man-Fre: 09:00-20:00 <br> Lør-Søn: 10:00-20:00</p>
         </div>
     </footer>
+
     <script src="script.js"></script>
 </body>
 </html>
