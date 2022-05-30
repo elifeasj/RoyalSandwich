@@ -6,8 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
-    <title>Royal Sandwich | Virksomheder</title>
-    <meta name="description" content="Hos Royal Sandwich Taastrup finder du økologisk fyld af råvarer i din sandwich. Sund, frisk sandwich, salat og bagels til små og store virksomheder. Se mere her!"> <!--SEO tekst-->
+    <!-- Animationerne er inspireret af siden https://animate.style/ - kommentar fra 28.05.22 -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- SoMe ikonerne er inspireret af siden https://www.w3schools.com/howto/howto_css_social_media_buttons.asp - kommentar fra 28.05.22 -->
+    <title>Royal Sandwich | Menukort</title>
+    <!--SEO tekst-->
     <meta name="robots" content="noindex, nofollow">
     <meta property="og:locale" content="da_DK">
     <meta property="og:type" content="website">
@@ -17,6 +20,31 @@
     <meta property="og:site_name" content="Royal Sandwich">
     <meta name="keywords" content="sandwich, økologisk, frokosttilbud, frokost, taastrup, bagel, salatbox, høje taastrup">
 </head>
+
+<header class="header">
+    <div class="logo"><a href="index.html"><img src="img/RoyalSandwichLogo.svg" alt="royalsandwichlogo"></a></div>
+    <div class="dropdown">
+        <input type="checkbox" id="dropdown" /> <!--Dropdown menu for mobil inspireret fra: https://w3codepen.com/html-css-dropdown-navigation-menu/ - kommentar fra: 30.05.22-->
+        <label for="dropdown"><img src="img/burgermenu-icon.png" id="dropdown" class="dropdown" /></label> <!-- Billedet burgermenu-icon er fra https://www.flaticon.com/premium-icon/burger-bar_5358649?k=1653644712319&log-in=googlehttps://download.flaticon.com/download/icon/edited?_gl=1*13pncq6*test_ga*MTYwNTkxNTk0OC4xNjUzNjQ0Njk0*test_ga_523JXC6VL7*MTY1MzY0NDY5NC4xLjEuMTY1MzY0NDcyNS4yOQ..*fp_ga*MTYwNTkxNTk0OC4xNjUzNjQ0Njk0*fp_ga_1ZY8468CQB*MTY1MzY0NDY5NC4xLjEuMTY1MzY0NDcyNS4yOQ - kommentar fra 30.05.22 -->
+        <div class="dropdown-content">
+            <ul>
+                <li><a href="index.html">Menukort</a></li>
+                <li><a href="allergi.html">Allergi</a></li>
+                <li><a href="virksomheder.html">Virksomheder</a></li>
+                <li><a href="kontaktos.html">Kontakt os</a></li>
+            </ul>
+        </div>
+     </div>
+    <nav class="navigation">
+        <ul>
+            <li><a href="index.html">Menukort</a></li>
+            <li><a href="allergi.html">Allergi</a></li>
+            <li><a href="virksomheder.html">Virksomheder</a></li>
+            <li><a href="kontaktos.html">Kontakt os</a></li>
+        </ul>
+    </nav>
+</header>
+
 <body>
     <main>
         <section class="infovirksomheder">
@@ -30,7 +58,7 @@
             </div>
             <!-- Billede af sandwich er fra https://www.pexels.com/da-dk/foto/brod-mad-sandwich-middag-1630309/ - kommentar fra 28.05.22 -->
             <div class="secound-container-virksomheder">
-                <img src="img/sandwich.jpg" class="sandwich" alt="sandwich" width="100%">
+                <img src="img/sandwich.jpg" class="sandwich" alt="sandwich">
             </div>
 
             <span class="info-two"> Lyder det noget du kunne ønske for det næste møde, event eller arrangement?</span>
