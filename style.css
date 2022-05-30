@@ -145,6 +145,63 @@ input[type=checkbox]:checked ~ .dropdown-content{
     line-height: 35px;
 }
 
+/* Menukort */
+.menukort{
+    padding: 20px 20px 20px 20px;
+}
+
+.menukort h1{
+    font-family: 'BobbyJonesSoft';
+    color: #FFA800;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    padding: 60px 0px 50px 0px;
+}
+
+.menu-overskrift{
+    color: #0E1422;
+    background-color: #FFA800;
+    border-radius: 20px;
+    padding: 15px 10px;
+    display: flex;
+    justify-content: center;
+    margin: 40px 22px 10px 22px;
+}
+
+.menu-frakl{
+    color: #ffff;
+    background-color: #ef2020;
+    border-radius: 20px;
+    padding: 15px 10px;
+    text-align: center;
+    margin: 0px 70px 20px 70px;
+}
+
+.fritvalg{
+    color: #ffff;
+    background-color: #ef2020;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    padding: 15px 10px;
+    margin: 0px 90px 20px 90px;
+}
+
+.retter{
+    color: #FFA800;
+    margin: 8px;
+    text-align: left;
+    padding-top: 10px;
+}
+
+.beskrivelse{
+    color: #ffff;
+    padding-bottom: 30px;
+    padding: 0px 10px 10px 10px;
+    text-align: left;
+}
+
 
 /* Indhold Allergi (allergi.html) siden */
 .infoomallergi{
