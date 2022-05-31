@@ -38,6 +38,10 @@ body{
     font-family: 'MontserratFont';
 }
 
+main{
+    min-height: 100vh;
+}
+
 /* Nav-bar mobil og dropdown menu */
 .navigation{
     display: none;
@@ -49,6 +53,7 @@ body{
     justify-content: space-between;
     padding: 35px 35px 0px;
     align-items: center;
+    position: relative;
 }
 
 .header hr{
@@ -266,22 +271,23 @@ input[type=checkbox]:checked ~ .dropdown-content{
     margin-bottom: 20px;
 }
 
-.info-one{
+.infovirksomheder .info-one{
     color: #FFA800;
+    font-size: 29px;
 }
 
 .infovirksomheder hr{
     width: 50%;
     border-color: #FFA800;
+    margin-bottom: 35px;
 }
 
-.virksomheder-first{
-    color: #ffff;
+.infovirksomheder span{
+    color: #FFA800;
     font-size: 19px;
-    margin: 30px 0px 15px 0px;
 }
 
-.virksomheder-secound{
+.infovirksomheder p{
     color: #ffff;
     font-size: 19px;
 }
@@ -292,23 +298,9 @@ input[type=checkbox]:checked ~ .dropdown-content{
     margin: 15px 0px 15px 0px;
 }
 
-.info-two{
-    color: #FFA800;
-    font-size: 19px;
-}
 
-.info-three{
-    color: #ffff;
-    font-size: 19px;
-    margin: 30px 0px 50px 0px;
-}
-
-.kontaktosknap{
-    display: flex;
-    margin: 0px 90px;
-}
-
-.kontaktknap{
+.kontaktosknap a{
+    display: inline-block;
     font-size: 19px;
     border: 2px solid black;
     border-radius: 10px;
@@ -318,9 +310,11 @@ input[type=checkbox]:checked ~ .dropdown-content{
     cursor: pointer;
     text-align: center;
     padding: 12px 15px;
+    justify-content: center;
+    margin: 2em 0em 2em 5em;
 }
 
-.kontaktknap:hover{
+.kontaktosknap:hover{
     color: #FFA800;
 }
 
@@ -453,7 +447,10 @@ footer hr{
     color: #ffff;
 }
 
+@media only screen and (min-width: 650px){
 
+
+}
 
 /* Desktop version start */
 @media (min-width: 1024px){
@@ -531,7 +528,131 @@ footer hr{
     .box-text h1{
         padding-bottom: 10px;
     }
+
+    .menukort{
+        padding: 0em 5em 0em 5em;
+        font-size: 20px;
+    }
+
+    .menukort h1{
+        font-size: 65px;
+    }
+
+    .menu-one{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 3rem;
+    }
+
+    .menu-two{
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 3rem;
+    }
+
+    .menu-three{
+        display: flex;
+        justify-content: center;
+        margin-bottom: 3rem;
+    }
+
+    .menukort-container-one{
+        padding: 0em 5em 0em 0em;
+    }
+
+    .menukort-container-two{
+        padding: 0em 6em 0em 0em;
+    }
+
+    .menukort-container-eight{
+        padding: 0em 2em 0em 0em;
+    }
+
+    .menukort-container-eight .beskrivelse{
+        padding: 0em 3em 0em 0em;
+    }
+
+    .menu-frakl{
+        margin: 0px 90px 20px 90px;
+        padding: 10px 10px;
+    }
     
+    .fritvalg{
+        padding: 10px 10px;
+        margin: -10px 90px 20px 90px;
+    }
+
+    
+  /* Indhold af Allergi (allergi.html) siden - desktop */
+    .infoomallergi{
+        padding: 0em 9em 0em 9em;
+    }
+
+    .infoomallergi h1{
+        font-size: 45px;
+        line-height: 60px;
+    }
+
+    .allergi-secound{
+        margin-bottom: 50px;
+    }
+
+    .allergi-third{
+        margin-bottom: 8em;
+    }
+
+    /* Indhold af Virksomheder (virksomheder.html) siden - desktop */
+    .infovirksomheder{
+        padding: 0em 9em 0em 9em;
+        display: inline-block;
+    }
+
+    .first-container-virksomheder{
+        padding: 0em 40em 0em 0em;
+        float: left;
+    }
+
+    .first-container-virksomheder h1{
+        padding: 0em 2em 0em 0em;
+        font-size: 45px;
+        line-height: 60px;
+    }
+
+    .first-container-virksomheder .info-one{
+        font-size: 45px;
+    }
+
+    .sandwich{
+        position: relative;
+        top: -25rem;
+        margin-right: -1em;
+        width: 40%;
+        float: right;
+    }
+
+    .kontaktosknap a{
+        margin: 2em 0em 2em 20em;
+        font-size: 22px;
+    }
+
+    /* Indhold af Kontakt os (kontaktos.html) siden - desktop */
+    .info-adresse{
+        padding: 0em 9em 0em 9em;
+    }
+
+    .contactform{
+        padding: 5em 9em 8em 9em;
+    }
+
+    input[type=text], select, textarea{
+        margin: 1em 0em 2em 0em;
+    }
+
+    button{
+        margin: 1em 0em 2em 20em;
+        font-size: 22px;
+    }
+
 
 
     /* Footer */
@@ -546,6 +667,10 @@ footer hr{
 
     footer h3{
         display: inline;
+    }
+
+    footer hr{
+        display: none;
     }
 
     .footer-some-four{
