@@ -51,6 +51,10 @@ body{
     align-items: center;
 }
 
+.header hr{
+    display: none;
+}
+
 /* Fjerner checkboxen */
 input[type=checkbox] {
     display:none;
@@ -453,18 +457,42 @@ footer hr{
 
 /* Desktop version start */
 @media (min-width: 1024px){
-    .navigation{
-        display: flex;
+
+    /* Header og navigation */
+    .header{
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        width: 100%;
     }
 
-    .navigation ul li{
+    .header hr{
+        display: inline-block;
+        width: 60%;
+    }
+
+    .navigation{
+        display: inline;
+        margin: 0 auto;
+        text-align: center;
+        width: 100%;
+    }
+
+    .navigation ul{
         list-style-type: none;
+    }
+
+    .navigation li{
+        display: inline-block;
+        margin: 20px 0px 100px;
     }
 
     .navigation ul li a{
         text-decoration: none;
         color: #ffff;
         font-size: 20px;
+        display: block;
+        padding: 1em;
     }
 
     .navigation ul li a:hover{
@@ -475,8 +503,21 @@ footer hr{
         display: none;
     }
 
+    .logo img{
+        width: 300px;
+        margin: 0;  
+    }
+
+
+    /* Indhold af Menukort (index.html) siden - desktop */
     .infoecology{
         display: flex;
+        flex-direction:row-reverse;
+        padding: 4em;
+    }
+
+    .infoecology hr{
+        display: none;
     }
 
     .organisk{
