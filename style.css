@@ -157,6 +157,7 @@ input[type=checkbox]:checked ~ .dropdown-content{
 /* Menukort */
 .menukort{
     padding: 20px 20px 20px 20px;
+    margin-bottom: 4em;
 }
 
 .menukort h1{
@@ -256,6 +257,7 @@ input[type=checkbox]:checked ~ .dropdown-content{
 .allergi-third{
     color: #FFA800;
     font-size: 19px;
+    margin-bottom: 4em;
 }
 
 /* Indhold Virksomheder (virksomheder.html) siden */
@@ -312,6 +314,7 @@ input[type=checkbox]:checked ~ .dropdown-content{
     padding: 12px 15px;
     justify-content: center;
     margin: 2em 0em 2em 5em;
+    margin-bottom: 4em;
 }
 
 .kontaktosknap:hover{
@@ -357,6 +360,7 @@ input[type=checkbox]:checked ~ .dropdown-content{
 /* Kontaktform design - kontaktformen er inspireret af https://www.w3schools.com/howto/howto_css_contact_form.asp - kommentar fra 28.05.22 */
 .contactform{
     padding: 55px 40px;
+    margin-bottom: 4em;
 }
 
 .contactform h1{
@@ -434,6 +438,11 @@ footer p{
 
 footer hr{
     width: 100%;
+}
+
+.footer-container-one p{
+    text-decoration: none;
+    color: #ffff;
 }
 
 
@@ -635,6 +644,10 @@ footer hr{
 
     .contactform{
         padding: 5em 9em 8em 9em;
+    }
+
+    .contact-formular{
+        padding: 0em 18em 0em 0em;
     }
 
     input[type=text], select, textarea{
