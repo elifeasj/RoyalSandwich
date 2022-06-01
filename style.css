@@ -359,6 +359,12 @@ input[type=checkbox]:checked ~ .dropdown-content{
     padding: 55px 40px;
 }
 
+.contactform h1{
+    color: #FFA800;
+    font-size: 25px;
+    margin: 0px 0px 40px;
+}
+
 .contactform-formular{
     padding: 12px 20px;
     cursor: pointer;
