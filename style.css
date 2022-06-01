@@ -184,7 +184,7 @@ input[type=checkbox]:checked ~ .dropdown-content{
     border-radius: 20px;
     padding: 15px 10px;
     text-align: center;
-    margin: 0px 70px 20px 70px;
+    margin: 0px 70px 5px 70px;
 }
 
 .fritvalg{
@@ -372,7 +372,7 @@ input[type=text], select, textarea {
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 15px;
-    margin-bottom: 16px;
+    margin-bottom: 15px;
     resize: vertical;
     font-family: 'MontserratFont';
 }
@@ -395,6 +395,7 @@ button{
     cursor: pointer;
     text-align: center;
     padding: 15px 15px;
+    margin-top: 25px;
   }
 
   input[type=submit]:hover{
@@ -481,7 +482,7 @@ footer hr{
 
     .navigation li{
         display: inline-block;
-        margin: 20px 0px 100px;
+        margin: 20px 0px 70px;
     }
 
     .navigation ul li a{
@@ -522,12 +523,14 @@ footer hr{
     }
 
     .box-text{
-        padding: 10rem 8rem 5rem 5rem;
+        padding: 5rem 5rem 5rem 5rem;
     }
 
     .box-text h1{
         padding-bottom: 10px;
     }
+
+    /* Menukort - desktop version */
 
     .menukort{
         padding: 0em 5em 0em 5em;
@@ -538,34 +541,10 @@ footer hr{
         font-size: 65px;
     }
 
-    .menu-one{
+    .menu-one, .menu-two, .menu-three, .menu-four, .menu-five{
         display: flex;
-        justify-content: center;
-        margin-bottom: 3rem;
-    }
-
-    .menu-two{
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 3rem;
-    }
-
-    .menu-three{
-        display: flex;
-        justify-content: center;
-        margin-bottom: 3rem;
-    }
-
-    .menukort-container-one{
-        padding: 0em 5em 0em 0em;
-    }
-
-    .menukort-container-two{
-        padding: 0em 6em 0em 0em;
-    }
-
-    .menukort-container-eight{
-        padding: 0em 2em 0em 0em;
+        justify-content: space-around;
+        margin-bottom: 3em;
     }
 
     .menukort-container-eight .beskrivelse{
@@ -580,6 +559,14 @@ footer hr{
     .fritvalg{
         padding: 10px 10px;
         margin: -10px 90px 20px 90px;
+    }
+
+    .beskrivelse{
+     padding: 0px 0px;   
+    }
+
+    .menu-overskrift{
+        margin: 0px 10px 20px 10px;
     }
 
     
@@ -613,7 +600,7 @@ footer hr{
     }
 
     .first-container-virksomheder h1{
-        padding: 0em 2em 0em 0em;
+        padding: 0rem 1rem 0rem 0rem;
         font-size: 45px;
         line-height: 60px;
     }
@@ -653,24 +640,23 @@ footer hr{
         font-size: 22px;
     }
 
-
-
     /* Footer */
     footer{
         position: sticky;
         display: flex;
         flex-direction:row;
-        padding: 1rem 7rem;
-        margin: 1rem 3rem 1rem;
+        padding: 4rem 4rem;
+        margin: 1rem 2rem 1rem 2rem;
         justify-content: space-between;
+    }
+
+    footer p{
+        font-size: 18px;
     }
 
     footer h3{
         display: inline;
-    }
-
-    footer hr{
-        display: none;
+        font-size: 22px;
     }
 
     .footer-some-four{
