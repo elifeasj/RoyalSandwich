@@ -5,37 +5,31 @@
 }
 
 /* Installationen af fonts er inspireret af videoen https://www.youtube.com/watch?v=AAU25Fo4bFY - kommentar fra 28.05.22 */
-/* Font er fra https://www.dafontfree.io/bobby-jones-font-family/ - kommentar fra 28.05.22 */
-@font-face {
-    font-family:'BobbyJonesSoft';
-    src: url(fonts/BobbyJonesSoft.ttf) format('truetype');
-}
-
 /* Font er fra https://fonts.google.com/specimen/Montserrat?category=Serif,Sans+Serif - kommentar fra 28.05.22 */
 @font-face {
-    font-family: 'MontserratFont';
+    font-family: 'MontserratFont' , sans-serif;
     src: url(fonts/MontserratFont.ttf) format('truetype');
     font-weight: normal;
 }
 
 @font-face {
-    font-family: 'MontserratItalicFont';
+    font-family: 'MontserratItalicFont' , sans-serif;
     src: url(fonts/MontserratItalicFont.ttf) format('truetype');
 }
 
 @font-face {
-    font-family: 'MontserratBoldFont';
+    font-family: 'MontserratBoldFont' , sans-serif;
     src: url(fonts/MontserratBoldFont.ttf) format('truetype');
 }
 /* Font er fra https://fonts.google.com/share?selection.family=Prompt:wght@300 - kommentar fra 30.05.22 */
 @font-face {
-    font-family: 'PromptMedium';
+    font-family: 'PromptMedium', sans-serif;
     src: url(fonts/PromptMedium.ttf) format('truetype');
 }
 
 body{
     background-color: #0E1422;
-    font-family: 'MontserratFont';
+    font-family: 'MontserratFont' , sans-serif;
 }
 
 main{
@@ -131,7 +125,7 @@ input[type=checkbox]:checked ~ .dropdown-content{
 .box-text h1{
     color:#FFA800;
     font-size: 45px;
-    font-family: 'MontserratBoldFont';
+    font-family: 'MontserratBoldFont' , sans-serif;
     letter-spacing: 3px;
     line-height: 3.5rem;
     margin-bottom: 10px;
@@ -140,7 +134,7 @@ input[type=checkbox]:checked ~ .dropdown-content{
 .box-text h3{
     color: #ffff;
     font-size: 25px;
-    font-family: 'MontserratItalicFont';
+    font-family: 'MontserratItalicFont' , sans-serif;
     margin-bottom: 15px;
     line-height: 42px;
 }
@@ -158,7 +152,6 @@ input[type=checkbox]:checked ~ .dropdown-content{
 }
 
 .menukort h1{
-    font-family: 'BobbyJonesSoft';
     color: #FFA800;
     font-size: 45px;
     display: flex;
@@ -223,7 +216,7 @@ input[type=checkbox]:checked ~ .dropdown-content{
 
 .infoomallergi h1{
     color: #FFA800;
-    font-family: 'MontserratBoldFont';
+    font-family: 'MontserratBoldFont' , sans-serif;
     font-size: 32px;
     margin-bottom: 20px;
     line-height: 1.5em;
@@ -265,7 +258,7 @@ input[type=checkbox]:checked ~ .dropdown-content{
 .infovirksomheder h1{
     color:#ffff;
     font-size: 29px;
-    font-family: 'MontserratBoldFont';
+    font-family: 'MontserratBoldFont' , sans-serif;
     line-height: 2.5rem;
     margin-bottom: 20px;
 }
@@ -369,7 +362,7 @@ input[type=checkbox]:checked ~ .dropdown-content{
 .contactform-formular{
     padding: 12px 20px;
     cursor: pointer;
-    font-family: 'MontserratFont';
+    font-family: 'MontserratFont' , sans-serif;
 }
 
 input[type=text], select, textarea {
@@ -381,7 +374,7 @@ input[type=text], select, textarea {
     margin-top: 15px;
     margin-bottom: 15px;
     resize: vertical;
-    font-family: 'MontserratFont';
+    font-family: 'MontserratFont' , sans-serif;
 }
 
 .contact-formular, label{
@@ -458,10 +451,6 @@ footer p{
     color: #ffff;
 }
 
-@media only screen and (min-width: 650px){
-
-
-}
 
 /* Desktop version start */
 @media (min-width: 1024px){
