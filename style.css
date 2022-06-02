@@ -103,8 +103,7 @@ input[type=checkbox]:checked ~ .dropdown-content{
 
 .logo img{
     display: flex;
-    width: 200px;
-    height: 200px;
+    width: 100%;
     align-items: center;
     float: none;
     margin-bottom: 20px;
@@ -121,8 +120,7 @@ input[type=checkbox]:checked ~ .dropdown-content{
 
 .organisk{
     object-fit: contain;
-    width: 500px;
-    height: 259px;
+    width: 100%;
 }
 
 .box-text{
@@ -537,8 +535,9 @@ footer p{
     }
 
     .organisk{
-        width: 500px;
         object-fit: cover;
+        width: 600px;
+        height: 600px;
     }
 
     .box-text{
