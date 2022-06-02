@@ -135,6 +135,7 @@ input[type=checkbox]:checked ~ .dropdown-content{
     color: #ffff;
     font-size: 25px;
     font-family: 'MontserratItalicFont' , sans-serif;
+    font-weight: 200;
     margin-bottom: 15px;
     line-height: 42px;
 }
