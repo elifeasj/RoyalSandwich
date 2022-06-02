@@ -10,21 +10,25 @@
     font-family: 'MontserratFont' , sans-serif;
     src: url(fonts/MontserratFont.ttf) format('truetype');
     font-weight: normal;
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'MontserratItalicFont' , sans-serif;
     src: url(fonts/MontserratItalicFont.ttf) format('truetype');
+    font-display: swap;
 }
 
 @font-face {
     font-family: 'MontserratBoldFont' , sans-serif;
     src: url(fonts/MontserratBoldFont.ttf) format('truetype');
+    font-display: swap;
 }
 /* Font er fra https://fonts.google.com/share?selection.family=Prompt:wght@300 - kommentar fra 30.05.22 */
 @font-face {
     font-family: 'PromptMedium', sans-serif;
     src: url(fonts/PromptMedium.ttf) format('truetype');
+    font-display: swap;
 }
 
 body{
@@ -91,7 +95,7 @@ input[type=checkbox]:checked ~ .dropdown-content{
 
 .dropdown img{
     display: flex;
-    width: 80px;
+    width: 70%;
     justify-content: center;
 }
 
