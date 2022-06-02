@@ -448,6 +448,7 @@ footer p{
     padding: 10px;
     text-align: center;
     text-decoration: none;
+    font-display: swap;
 }
 
 .footer-some-four{
