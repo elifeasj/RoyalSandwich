@@ -56,9 +56,6 @@ main{
     position: relative;
 }
 
-.header hr{
-    display: none;
-}
 
 /* Fjerner checkboxen */
 input[type=checkbox] {
@@ -419,6 +416,8 @@ footer{
     flex-direction: column;
     align-items: center;
     padding: 35px;
+    border-top: 2px solid white;
+    width: 100%;
 }
 
 footer h3{
@@ -434,10 +433,6 @@ footer h3{
 footer p{
     color: #ffff;
     font-size: 20px;
-}
-
-footer hr{
-    width: 100%;
 }
 
 .footer-container-one p{
@@ -479,11 +474,6 @@ footer hr{
         width: 100%;
     }
 
-    .header hr{
-        display: inline-block;
-        width: 60%;
-    }
-
     .navigation{
         display: inline;
         margin: 0 auto;
@@ -491,8 +481,18 @@ footer hr{
         width: 100%;
     }
 
+
     .navigation ul{
         list-style-type: none;
+        position: relative;
+    }
+
+    .navigation ul::before{
+        content: '';
+        position: absolute;
+        left: 25%;
+        width: 50%;
+        border-top: 1px solid white;
     }
 
     .navigation li{
@@ -518,7 +518,7 @@ footer hr{
 
     .logo img{
         width: 300px;
-        margin: 0;  
+        margin: 0;
     }
 
 
@@ -534,6 +534,7 @@ footer hr{
     }
 
     .organisk{
+        width: 500px;
         object-fit: cover;
     }
 
@@ -626,8 +627,7 @@ footer hr{
 
     .sandwich{
         position: relative;
-        top: -25rem;
-        margin-right: -1em;
+        top: -35rem;
         width: 40%;
         float: right;
     }
@@ -665,7 +665,6 @@ footer hr{
         display: flex;
         flex-direction:row;
         padding: 4rem 4rem;
-        margin: 1rem 2rem 1rem 2rem;
         justify-content: space-between;
     }
 
