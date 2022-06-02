@@ -95,13 +95,15 @@ input[type=checkbox]:checked ~ .dropdown-content{
 
 .dropdown img{
     display: flex;
-    width: 70%;
+    width: 100px;
+    height: 100px;
     justify-content: center;
 }
 
 .logo img{
     display: flex;
-    width: 100%;
+    width: 200px;
+    height: 200px;
     align-items: center;
     float: none;
     margin-bottom: 20px;
@@ -118,7 +120,8 @@ input[type=checkbox]:checked ~ .dropdown-content{
 
 .organisk{
     object-fit: contain;
-    width: 100%;
+    width: 400px;
+    height: 260px;
 }
 
 .box-text{
@@ -457,6 +460,15 @@ footer p{
 }
 
 
+@media (min-width: 820px){
+    .organisk{
+        object-fit: cover;
+        width: 900px;
+        height: 500px;
+    }
+}
+
+
 /* Desktop version start */
 @media (min-width: 1024px){
 
@@ -513,6 +525,7 @@ footer p{
 
     .logo img{
         width: 300px;
+        height: 250px;
         margin: 0;
     }
 
