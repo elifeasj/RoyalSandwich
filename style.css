@@ -487,6 +487,7 @@ footer p{
         position: relative;
     }
 
+/* Border-length er inspireret af videoen https://www.youtube.com/watch?v=1oAxEojCsNY  Kommentar fra 02.06.22 */
     .navigation ul::before{
         content: '';
         position: absolute;
