@@ -681,7 +681,7 @@ footer p{
     footer{
         position: sticky;
         display: flex;
-        flex-direction:row;
+        flex-direction: row;
         padding: 4rem 4rem;
         justify-content: space-between;
     }
