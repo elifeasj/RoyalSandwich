@@ -119,8 +119,7 @@ input[type=checkbox]:checked ~ .dropdown-content{
 }
 
 .organisk{
-    object-fit: contain;
-    width: 400px;
+    width: 420px;
     height: 260px;
 }
 
