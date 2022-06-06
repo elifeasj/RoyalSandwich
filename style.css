@@ -24,12 +24,6 @@
     src: url(fonts/MontserratBoldFont.ttf) format('truetype');
     font-display: swap;
 }
-/* Font er fra https://fonts.google.com/share?selection.family=Prompt:wght@300 - kommentar fra 30.05.22 */
-@font-face {
-    font-family: 'PromptMedium', sans-serif;
-    src: url(fonts/PromptMedium.ttf) format('truetype');
-    font-display: swap;
-}
 
 body{
     background-color: #0E1422;
